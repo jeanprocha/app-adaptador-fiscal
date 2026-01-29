@@ -1,0 +1,148 @@
+[
+  {
+    "id": "1",
+    "number": "000001",
+    "series": "001",
+    "date": "2024-01-15",
+    "totalValue": 15000.00,
+    "company": "Empresa ABC Ltda",
+    "status": "processed",
+    "items": [
+      {
+        "sku": "PROD001",
+        "description": "Produto Industrial A",
+        "ncm": "8415.10.00",
+        "cfop": "5102",
+        "tes": "501",
+        "quantity": 10,
+        "unitValue": 1000.00,
+        "oldTax": 180.00,
+        "newTax": 220.00,
+        "discrepancy": 40.00,
+        "discrepancyType": "increase"
+      },
+      {
+        "sku": "PROD002",
+        "description": "Produto Industrial B",
+        "ncm": "8415.20.00",
+        "cfop": "5102",
+        "tes": "501",
+        "quantity": 5,
+        "unitValue": 1000.00,
+        "oldTax": 180.00,
+        "newTax": 200.00,
+        "discrepancy": 20.00,
+        "discrepancyType": "increase"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "number": "000002",
+    "series": "001",
+    "date": "2024-01-16",
+    "totalValue": 8500.00,
+    "company": "Empresa ABC Ltda",
+    "status": "processed",
+    "items": [
+      {
+        "sku": "SERV001",
+        "description": "Serviço de Consultoria",
+        "ncm": "9999.99.99",
+        "cfop": "5933",
+        "tes": "701",
+        "quantity": 1,
+        "unitValue": 8500.00,
+        "oldTax": 1275.00,
+        "newTax": 1530.00,
+        "discrepancy": 255.00,
+        "discrepancyType": "increase"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "number": "000003",
+    "series": "001",
+    "date": "2024-01-17",
+    "totalValue": 25000.00,
+    "company": "Empresa XYZ S/A",
+    "status": "processed",
+    "items": [
+      {
+        "sku": "PROD003",
+        "description": "Produto Varejo Premium",
+        "ncm": "8517.12.00",
+        "cfop": "5102",
+        "tes": "502",
+        "quantity": 20,
+        "unitValue": 1250.00,
+        "oldTax": 200.00,
+        "newTax": 250.00,
+        "discrepancy": 50.00,
+        "discrepancyType": "increase"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "number": "000004",
+    "series": "001",
+    "date": "2024-01-18",
+    "totalValue": 12000.00,
+    "company": "Empresa ABC Ltda",
+    "status": "pending",
+    "items": [
+      {
+        "sku": "PROD004",
+        "description": "Produto Industrial C",
+        "ncm": "8415.30.00",
+        "cfop": "5102",
+        "tes": "501",
+        "quantity": 8,
+        "unitValue": 1500.00,
+        "oldTax": 270.00,
+        "newTax": 240.00,
+        "discrepancy": -30.00,
+        "discrepancyType": "decrease"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "number": "000005",
+    "series": "001",
+    "date": "2024-01-19",
+    "totalValue": 32000.00,
+    "company": "Empresa XYZ S/A",
+    "status": "processed",
+    "items": [
+      {
+        "sku": "PROD001",
+        "description": "Produto Industrial A",
+        "ncm": "8415.10.00",
+        "cfop": "5102",
+        "tes": "501",
+        "quantity": 15,
+        "unitValue": 1500.00,
+        "oldTax": 270.00,
+        "newTax": 330.00,
+        "discrepancy": 60.00,
+        "discrepancyType": "increase"
+      },
+      {
+        "sku": "PROD005",
+        "description": "Produto Industrial D",
+        "ncm": "8415.40.00",
+        "cfop": "5102",
+        "tes": "503",
+        "quantity": 10,
+        "unitValue": 950.00,
+        "oldTax": 142.50,
+        "newTax": 190.00,
+        "discrepancy": 47.50,
+        "discrepancyType": "increase"
+      }
+    ]
+  }
+]

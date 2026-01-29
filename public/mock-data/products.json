@@ -1,0 +1,38 @@
+[
+  {
+    "sku": "PROD001",
+    "description": "Produto Industrial A",
+    "ncm": "8415.10.00",
+    "category": "Industrial"
+  },
+  {
+    "sku": "PROD002",
+    "description": "Produto Industrial B",
+    "ncm": "8415.20.00",
+    "category": "Industrial"
+  },
+  {
+    "sku": "PROD003",
+    "description": "Produto Varejo Premium",
+    "ncm": "8517.12.00",
+    "category": "Varejo"
+  },
+  {
+    "sku": "PROD004",
+    "description": "Produto Industrial C",
+    "ncm": "8415.30.00",
+    "category": "Industrial"
+  },
+  {
+    "sku": "PROD005",
+    "description": "Produto Industrial D",
+    "ncm": "8415.40.00",
+    "category": "Industrial"
+  },
+  {
+    "sku": "SERV001",
+    "description": "Serviço de Consultoria",
+    "ncm": "9999.99.99",
+    "category": "Serviços"
+  }
+]

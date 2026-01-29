@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rule-1",
+    "name": "IBS Industrial - CFOP 5102",
+    "cfop": "5102",
+    "tes": "501",
+    "oldRate": 18.0,
+    "newRate": 22.0,
+    "ruleType": "IBS"
+  },
+  {
+    "id": "rule-2",
+    "name": "IBS Industrial - CFOP 5102 (Variação)",
+    "cfop": "5102",
+    "tes": "502",
+    "oldRate": 18.0,
+    "newRate": 20.0,
+    "ruleType": "IBS"
+  },
+  {
+    "id": "rule-3",
+    "name": "IBS Industrial Especial - TES 503",
+    "cfop": "5102",
+    "tes": "503",
+    "oldRate": 15.0,
+    "newRate": 20.0,
+    "ruleType": "IBS"
+  },
+  {
+    "id": "rule-4",
+    "name": "CBS Serviços - CFOP 5933",
+    "cfop": "5933",
+    "tes": "701",
+    "oldRate": 15.0,
+    "newRate": 18.0,
+    "ruleType": "CBS"
+  }
+]

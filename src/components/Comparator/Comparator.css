@@ -1,0 +1,257 @@
+.comparator-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.comparator-header {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.comparator-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.comparator-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.comparator-company {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.rules-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.comparison-section {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+}
+
+.comparison-section h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.rules-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rule-card {
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+
+.rule-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rule-old {
+  background: #fef3c7;
+  border-color: #f59e0b;
+}
+
+.rule-new {
+  background: #dbeafe;
+  border-color: #2563eb;
+}
+
+.rule-changed {
+  background: #fee2e2;
+  border-color: #ef4444;
+  border-width: 2px;
+}
+
+.rule-header {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.rule-type {
+  padding: 0.25rem 0.625rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--primary);
+  color: white;
+}
+
+.rule-name {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+}
+
+.rule-rate {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rule-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.rule-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.value-changed {
+  color: var(--error);
+}
+
+.rule-meta {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+}
+
+.items-comparison {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+}
+
+.items-comparison h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.row-discrepancy {
+  background: #fef2f2;
+}
+
+.row-discrepancy:hover {
+  background: #fee2e2;
+}
+
+.total-row {
+  background: var(--background);
+  font-weight: 600;
+}
+
+.total-row td {
+  padding-top: 1rem;
+  border-top: 2px solid var(--border);
+}
+
+.discrepancy-value {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.discrepancy-increase {
+  color: var(--error);
+  background: #fee2e2;
+}
+
+.discrepancy-decrease {
+  color: var(--success);
+  background: #d1fae5;
+}
+
+.discrepancy-change {
+  color: var(--warning);
+  background: #fef3c7;
+}
+
+.comparator-summary {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+}
+
+.summary-card h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.summary-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: var(--background);
+  border-radius: 6px;
+}
+
+.summary-item.highlight {
+  background: #eff6ff;
+  border: 1px solid var(--primary);
+}
+
+.summary-item span {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.summary-item strong {
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .rules-comparison {
+    grid-template-columns: 1fr;
+  }
+}

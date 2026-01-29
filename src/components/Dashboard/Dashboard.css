@@ -1,0 +1,118 @@
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.metrics-card {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.metrics-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.metrics-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.metrics-card-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.metrics-card-icon {
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+
+.metrics-card-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.metrics-card-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.metrics-card-trend {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.trend-up {
+  color: var(--success);
+}
+
+.trend-down {
+  color: var(--error);
+}
+
+.metrics-card-primary {
+  border-left: 4px solid var(--primary);
+}
+
+.metrics-card-success {
+  border-left: 4px solid var(--success);
+}
+
+.metrics-card-warning {
+  border-left: 4px solid var(--warning);
+}
+
+.metrics-card-error {
+  border-left: 4px solid var(--error);
+}
+
+.metrics-card-info {
+  border-left: 4px solid var(--secondary);
+}
+
+.chart-container {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.chart-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dashboard-overview {
+  width: 100%;
+}

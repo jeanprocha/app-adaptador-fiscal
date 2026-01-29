@@ -1,0 +1,146 @@
+.report-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.report-header {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.report-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.report-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.report-summary {
+  margin-bottom: 2rem;
+}
+
+.summary-card {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+}
+
+.summary-card h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.summary-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: var(--background);
+  border-radius: 6px;
+}
+
+.summary-item.highlight {
+  background: #eff6ff;
+  border: 1px solid var(--primary);
+}
+
+.summary-item span {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.summary-item strong {
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.report-table-wrapper {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.note-details {
+  margin-bottom: 2rem;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-item {
+  background: var(--surface);
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.detail-value {
+  font-size: 1rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.tax-summary {
+  margin-top: 1.5rem;
+}
+
+.row-discrepancy {
+  background: #fef2f2;
+}
+
+.row-discrepancy:hover {
+  background: #fee2e2;
+}
+
+.total-row {
+  background: var(--background);
+  font-weight: 600;
+}
+
+.total-row td {
+  padding-top: 1rem;
+  border-top: 2px solid var(--border);
+}
